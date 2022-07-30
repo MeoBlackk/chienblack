@@ -621,13 +621,13 @@ shortcut={all_shortcuts:{},add:function(a,b,c){var d={type:"keydown",propagate:!
         }, 1e3);
         }
         function updatePostNum(json) {
-		counter('count-view',2741)
+		counter('count-view',4083)
 		counter('count-share', 0)
-        counter('count-post', 25)
+        counter('count-post', 0)
         }
 
         function updateCmtNum(json) {
-          counter('count-cmt', 3)
+          counter('count-cmt', 0)
         }
           loadJS('./countUp.min.js', function() {
           loadJS('feeds/posts/default/indexadda.html?alt=json&amp;max-results=0&amp;callback=updatePostNum');
